@@ -1,0 +1,5 @@
+#+TITLE: Nodejs JWT authentication demo
+#+AUTHOR: Pushkar Raj
+#+AUTHOR: px86@protonmail.com
+
+Read more about JWT at https://jwt.io/introduction

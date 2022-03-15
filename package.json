@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-jwt-authentication-demo",
+  "version": "1.0.0",
+  "description": "Implementation of JWT based authentication in nodejs application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/px86/nodejs-jwt-authentication-demo.git"
+  },
+  "keywords": [
+    "JWT"
+  ],
+  "author": "Pushkar Raj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/px86/nodejs-jwt-authentication-demo/issues"
+  },
+  "homepage": "https://github.com/px86/nodejs-jwt-authentication-demo#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1"
+  }
+}
