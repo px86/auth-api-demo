@@ -20,7 +20,12 @@
   },
   "homepage": "https://github.com/px86/nodejs-jwt-authentication-demo#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.4.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
   }
 }
