@@ -8,7 +8,7 @@ module.exports = function(req, res, next) {
   }
   jwt.verify(token, process.env.TOKEN_SECRET, (err, user) => {
     if (err) return res.sendStatus(401);
-    console.log(`Token verified for user: ${user}`);
+    req.user = user;
     return next();
   });
 };
