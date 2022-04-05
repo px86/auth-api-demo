@@ -8,6 +8,6 @@ Read more about JWT at https://jwt.io/introduction
 
 | Environment variables | Description                                      |
 |-----------------------+--------------------------------------------------|
-| DB_URI                | URI of the database instance, e.g. MongoDB Atlas |
+| MONGO_URI             | URI of the database instance, e.g. MongoDB Atlas |
 | PORT                  | Port number on with the server will listen       |
 | TOKEN_SECRET          | A secret string for signing JSON Web tokens      |
